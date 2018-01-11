@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>MagicLon的项目</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/app.css" />
+		<style>
+			html,
+			body {
+				background-color: #efeff4;
+			}
+			
+			span.mui-icon {
+				font-size: 14px;
+				color: #007aff;
+				margin-left: -15px;
+				padding-right: 10px;
+			}
+			
+			.mui-off-canvas-left {
+				color: #fff;
+				background-color: #FFFFFF;
+			}
+			
+			.title {
+				margin: 35px 15px 10px;
+				color: black;
+			}
+			
+			.title+.content {
+				color: black;
+				text-indent: 1em;
+				font-size: 14px;
+				line-height: 24px;
+			}
+			
+			.mui-media-body {
+				color: black;
+			}
+			
+			input {
+				color: #000;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="offCanvasWrapper" class="mui-off-canvas-wrap mui-draggable">
+			<!--侧滑菜单部分-->
+			<aside id="offCanvasSide" class="mui-off-canvas-left">
+				<div id="offCanvasSideScroll" class="mui-scroll-wrapper">
+					<div class="title" align="center">About Me</div>
+					<div class="content" align="center">
+						一个安卓开发者
+					</div>
+					<div class="mui-card">
+						<ul class="mui-table-view">
+							<li class="mui-table-view-cell mui-media">
+								<a href="https://www.jianshu.com/u/99fac0f37352">
+									<img class="mui-media-object mui-pull-left" src="img/js.jpg">
+									<div class="mui-media-body">
+										我的简书
+										<p>欢迎star</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="https://github.com/magiclonw/">
+									<img class="mui-media-object mui-pull-left" src="img/gt.jpg">
+									<div class="mui-media-body">
+										我的Github
+										<p>欢迎star</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div  align="center" style="margin: 20px;">
+						<img src="img/scan.jpg"/>
+					</div>
+				</div>
+			</aside>
+			<!--主界面部分-->
+			<div class="mui-inner-wrap">
+				<header class="mui-bar mui-bar-nav" style="background-color: white;">
+					<a href="#offCanvasSide" class="mui-icon mui-action-menu mui-icon-bars mui-pull-left"></a>
+					<h1 class="mui-title">MagicLon的项目</h1>
+				</header>
+				<div id="offCanvasContentScroll" class="mui-content mui-scroll-wrapper" style="padding-bottom: 30px;">
+					<div class="mui-card">
+						<ul class="mui-table-view">
+							<li class="mui-table-view-cell mui-media">
+								<a href="https://github.com/magiclonw/AmapTraceAndNavi">
+									<img class="mui-media-object mui-pull-left" src="img/yuantiao.jpg">
+									<div class="mui-media-body">
+										AmapTraceAndNavi
+										<p class='mui-ellipsis'>高德地图得到运行轨迹，并计算距离.</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="https://github.com/magiclonw/HuaTuoDrug">
+									<img class="mui-media-object mui-pull-left" src="img/huatuo.png">
+									<div class="mui-media-body">
+										HuaTuoDrug
+										<p class='mui-ellipsis'>DrugStore Manual.For nothing,for interesting.</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="https://github.com/magiclonw/GoogleRoomDatebase">
+									<img class="mui-media-object mui-pull-left" src="img/yuantiao.jpg">
+									<div class="mui-media-body">
+										GoogleRoomDatebase
+										<p class='mui-ellipsis'>A demo for GoogleRoomDatebase</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="https://github.com/magiclonw/BottomSheetDialogDemo">
+									<img class="mui-media-object mui-pull-left" src="img/yuantiao.jpg">
+									<div class="mui-media-body">
+										BottomSheetDialogDemo
+										<p class='mui-ellipsis'>Just a bottomsheetdialog demo for fun</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="https://github.com/magiclonw/UnitStrokeProject">
+									<img class="mui-media-object mui-pull-left" src="img/yuantiao.jpg">
+									<div class="mui-media-body">
+										UnitStrokeProject
+										<p class='mui-ellipsis'>用到高德地图的绘制多边形,区划边界.</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="https://github.com/magiclonw/TestDroidPlugin">
+									<img class="mui-media-object mui-pull-left" src="img/yuantiao.jpg">
+									<div class="mui-media-body">
+										TestDroidPlugin
+										<p class='mui-ellipsis'>这是一个测试360插件化开发droidPlugin的工程demo</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="https://github.com/magiclonw/PocketDoctor">
+									<img class="mui-media-object mui-pull-left" src="img/pocketdoctor.png">
+									<div class="mui-media-body">
+										PocketDoctor
+										<p class='mui-ellipsis'>A demo</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="https://github.com/magiclonw/LogUtils">
+									<img class="mui-media-object mui-pull-left" src="img/yuantiao.jpg">
+									<div class="mui-media-body">
+										LogUtils
+										<p class='mui-ellipsis'>看到一个很有意思的日志工具，做成工具自己使用</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="https://github.com/magiclonw/floridftoast">
+									<img class="mui-media-object mui-pull-left" src="img/yuantiao.jpg">
+									<div class="mui-media-body">
+										Floridftoast
+										<p class='mui-ellipsis'>网上看到的一个toast类，做成工具供自己使用</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="https://github.com/magiclonw/SlideDrawer">
+									<img class="mui-media-object mui-pull-left" src="img/yuantiao.jpg">
+									<div class="mui-media-body">
+										SlideDrawer
+										<p class='mui-ellipsis'>这是一个从下往上滑动的slidedrawer 很简单</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="mui-off-canvas-backdrop"></div>
+			</div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script>
+			mui.init();
+			mui('#offCanvasSideScroll').scroll();
+			mui('#offCanvasContentScroll').scroll();
+			mui('.mui-scroll-wrapper').on('tap', 'a', function() {
+				location.href = this.getAttribute('href')
+			})
+		</script>
+	</body>
+
+</html>
